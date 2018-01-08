@@ -6,9 +6,9 @@ pipeline {
         echo 'Tests started'
       }
     }
-    stage('Junit Tests') {
+    stage('') {
       steps {
-        bat(script: 'C:\\Users\\USER\\Desktop\\runTests.bat', returnStatus: true, returnStdout: true)
+        sh 'mvn verify'
       }
     }
   }

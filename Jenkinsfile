@@ -8,7 +8,7 @@ pipeline {
     }
     stage('shell') {
       steps {
-        sh 'sh \'mvn clean verify\''
+        sh 'sh "echo JUnit"'
       }
     }
   }

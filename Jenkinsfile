@@ -8,8 +8,7 @@ pipeline {
     }
     stage('Junit Tests') {
       steps {
-        sh '''cd C:\\Users\\USER\\Desktop\\kerem\\project demos\\cucumber_java-master\\cucumber_java-master
-mvn verify'''
+        bat(script: 'C:\\Users\\USER\\Desktop\\runTests.bat', returnStatus: true, returnStdout: true)
       }
     }
   }

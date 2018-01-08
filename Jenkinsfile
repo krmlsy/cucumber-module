@@ -6,6 +6,11 @@ pipeline {
         echo 'Tests started'
       }
     }
+    stage('Run Junit') {
+      steps {
+        bat(script: 'C:\\Users\\USER\\Desktop\\runTests.bat', returnStatus: true, returnStdout: true)
+      }
+    }
     stage('IsReported') {
       steps {
         fileExists 'C:\\Users\\USER\\Desktop\\kerem\\project demos\\cucumber_java-master\\cucumber_java-master\\target\\cucumber-html-reports\\overview-features.html'

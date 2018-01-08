@@ -24,7 +24,7 @@ pipeline {
     stage('Publish Report') {
       steps {
         script {
-          publishHTML([allowMissing: false, alwaysLinkToLastBuild: true, keepAll: true, reportDir: 'C:\\Program Files (x86)\\Jenkins\\workspace\\cucumber-module_master-3GHERGXTIQPRBKVCHAOUUEMA6H7LFNSPQZ4TWWGLL2YMXZA5LPFQ\\target\\cucumber-html-reports', reportFiles: 'overview-features.html', reportName: 'HTML Report', reportTitles: ''])
+          publishHTML([allowMissing: true, alwaysLinkToLastBuild: true, keepAll: true, reportDir: 'C:\\Program Files (x86)\\Jenkins\\workspace\\cucumber-module_master-3GHERGXTIQPRBKVCHAOUUEMA6H7LFNSPQZ4TWWGLL2YMXZA5LPFQ\\target\\cucumber-html-reports', reportFiles: 'overview-features.html', reportName: 'HTML Report', reportTitles: ''])
         }
         
       }

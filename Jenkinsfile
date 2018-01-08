@@ -6,9 +6,14 @@ pipeline {
         echo 'Tests started'
       }
     }
-    stage('') {
+    stage('Junit tests') {
       steps {
-        sh 'mvn verify'
+        bat 'C:\\Users\\USER\\Desktop\\runTests.bat'
+      }
+    }
+    stage('shell') {
+      steps {
+        sh 'sh \'mvn clean verify\''
       }
     }
   }

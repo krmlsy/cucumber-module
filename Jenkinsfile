@@ -16,5 +16,10 @@ pipeline {
         fileExists 'C:\\Users\\USER\\Desktop\\kerem\\project demos\\cucumber_java-master\\cucumber_java-master\\target\\cucumber-html-reports\\overview-features.html'
       }
     }
+    stage('cucumber') {
+      steps {
+        cucumber(fileIncludePattern: '**/*.json', fileExcludePattern: '0', jsonReportDirectory: '0', sortingMethod: '0')
+      }
+    }
   }
 }

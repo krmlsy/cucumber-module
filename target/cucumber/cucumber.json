@@ -1,0 +1,894 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 216344,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "open site",
+        "description": "",
+        "id": "gıthub;open-site;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2405645,
+              "error_message": "java.lang.NullPointerException\r\n\tat setDefinition.GithubSteps2.killBrowser(GithubSteps2.java:71)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 198789214,
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\bin\\drivers\\chromeDriver\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat setDefinition.GithubSteps.i_have_cukes_in_my_belly(GithubSteps.java:16)\r\n\tat ✽.Given Open https://github.com/krmlsy site(github.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Open https://github.com/krmlsy site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://github.com/krmlsy",
+                  "offset": 5
+                }
+              ],
+              "location": "GithubSteps.i_have_cukes_in_my_belly(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "take secreenshot",
+            "match": {
+              "location": "GithubSteps.takeScreenShots()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@TEST"
+          }
+        ]
+      }
+    ],
+    "name": "GITHUB",
+    "description": "This is description",
+    "id": "gıthub",
+    "keyword": "Feature",
+    "uri": "github.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44337,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "open site",
+        "description": "",
+        "id": "new-test;open-site;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3280527781,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5731390836,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open new https://github.com/krmlsy site2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://github.com/krmlsy",
+                  "offset": 9
+                }
+              ],
+              "location": "GithubSteps2.i_have_cukes_in_my_belly(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "{\"menu\": {\r\n  \"id\": \"file\",\r\n  \"value\": \"File\",\r\n  \"popup\": {\r\n    \"menuitem\": [\r\n      {\"value\": \"New\", \"onclick\": \"CreateNewDoc()\"},\r\n      {\"value\": \"Open\", \"onclick\": \"OpenDoc()\"},\r\n      {\"value\": \"Close\", \"onclick\": \"CloseDoc()\"}\r\n    ]\r\n  }\r\n}}"
+            ],
+            "result": {
+              "duration": 949122,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "take new secreenshot2",
+            "match": {
+              "location": "GithubSteps2.takeScreenShots()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35752157,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"logout\"}\n  (Session info: chrome\u003d63.0.3239.132)\n  (Driver info: chromedriver\u003d2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027USER-BILGISAYAR\u0027, ip: \u0027172.20.10.8\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}\nSession ID: 741f48766f5d60be272537b259750547\n*** Element info: {Using\u003did, value\u003dlogout}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat setDefinition.GithubSteps2.logout(GithubSteps2.java:57)\r\n\tat ✽.When Click Logout(github2.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "Click Logout",
+            "match": {
+              "location": "GithubSteps2.logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "embeddings": [
+              {
+                "data": "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fzaIiIiGnE17e/twl4HowVNW/oOvz+PDXQrr61ilh4isyHKL8bC2J0Q0GAbeYuj1+v4ewiFJRGRibgwPERERPeI4JInoUdex5H+nMTxERERERgwYiB51PurUrOEuAxEREY1YHJJERERERESSGDAQEREREZEkBgxERERERCSJAQMREREREUliwEBERERERJIYMBARERERkSQGDEREREREJIkBAxERERERSWLAQEREREREkhgwEBERERGRJAYMREREREQkiQEDERERERFJYsBARERERESSGDAQEREREZEkBgxERERERCSJAQMREREREUliwEBERERERJIYMBARERERkSQGDEREREREJEk23AUgeuTcOXrg9tcHmysrANh7z3IOWeYUsnS4C0VERERkHgMGoqHTfltf+/a6pn9827Gl6R/fNv3j29v5B8a/9ScbZ5dhLBsRERGRWRySRDR0arfEdY4WOjT949vat9d13aZNj9lV3un3ck3SUR1qcpOiY+I6/0vIFVGyKzom6aiuawa6vATTxprcpIRc0cp/DBERET0a2MNANETuHD3QdOqE1N6mf3x75+gBp9BlljNxD9+cFQ5Amx5THJS51sewtQTTBBSUiKHhQkfK8n3HIZjPhIiIiKjv2MNANERu5x8YYAILzinkk/cf6tQjoS3SzQ9W3Hd+REREREYMGIiGiGGWs6UEF84MIPvAoLllRSXGX2pyD11cIEBn8QgiIiKiPuCQJKIRo7296+9lKTFxnX6Vx0ZaOtonMiJLk1fjH+YOUVsoj94mv1Y4CIUkIiKiRwwDBqIhYu89y8IcBkOCrht8EzpmKQDlmqRrlk+gUAYjTasLC9UdylAEZgG9pCciIiLqAw5JIhoiziG9TGjuNUFvhNBIecY+bXlhdWykcmBZERERERkxYCAaIk6hyxzmBEjtdZgT0OsSSb3zDww5mZaim6/kdGciIiKyEg5JIho64zel1m6J6zkwyWFOwPhNqdY4gzJiuRyKMPceO87tT47eDwAQIjTbzCQgIiIiMsumvfs8SyLqXVn5D74+j9/fsXeOHridf8CwaJK99yznkGVW6FsgohHMcosxkPaEiB41A28x9Hp9fw9hDwPRUHMKZYRAREREDwzOYSAiIiIiIkkMGIiIiIiISBIDBiIiIiIiksSAgYiIiIiIJDFgICIiIiIiSQwYiIiIiIhIEgMGIiIiIiKSxPcwEBERERE9olatWtVz4+eff975V/YwEBERERE9orrFBma3MGAgIiIiInp0dY4QekYLYMBARERERPSIM8QJZqMFMGAgIiIiIiKpaAEMGIiIiIiIyAIGDEREREREJIkBAxERERERSWLAQEREREREkhgwEN0PB3v7xqam4S4FET0AGpuaHOztLSRge0JEfdRrezJIGDAQ3Q+3cS5i9XV+xxORZY1NTeKP1x8b52IhDdsTIuqLvrQng+T/AROIXxPd3I1DAAAAAElFTkSuQmCC",
+                "mime_type": "image/png"
+              }
+            ],
+            "line": 10,
+            "name": "Close it",
+            "match": {
+              "location": "GithubSteps2.close()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@TEST_NEW"
+          }
+        ]
+      }
+    ],
+    "name": "NEW TEST",
+    "description": "This is description",
+    "id": "new-test",
+    "keyword": "Feature",
+    "uri": "github2.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 59936,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "a few cukes",
+        "description": "",
+        "id": "belly;a-few-cukes;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 128903,
+              "error_message": "java.lang.NullPointerException\r\n\tat setDefinition.GithubSteps2.killBrowser(GithubSteps2.java:73)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3603542,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have 32 cukes in my belly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "32",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_have_cukes_in_my_belly(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192534,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I wait 2 hour",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_wait_hour(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2863785,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "My belly should be:silent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "silent",
+                  "offset": 19
+                }
+              ],
+              "location": "Test_Steps.myBellyShouldBeSound(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 31200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "a few cukes",
+        "description": "",
+        "id": "belly;a-few-cukes;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 179808,
+              "error_message": "java.lang.NullPointerException\r\n\tat setDefinition.GithubSteps2.killBrowser(GithubSteps2.java:73)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 162155,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have 45 cukes in my belly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_have_cukes_in_my_belly(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100167,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I wait 4 hour",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_wait_hour(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117408,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "My belly should be:growl",
+            "match": {
+              "arguments": [
+                {
+                  "val": "growl",
+                  "offset": 19
+                }
+              ],
+              "location": "Test_Steps.myBellyShouldBeSound(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 41463,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "a few cukes2",
+        "description": "",
+        "id": "belly;a-few-cukes2;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 139166,
+              "error_message": "java.lang.NullPointerException\r\n\tat setDefinition.GithubSteps2.killBrowser(GithubSteps2.java:71)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 647389,
+              "error_message": "java.lang.AssertionError: expected:\u003c21\u003e but was:\u003c32\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat setDefinition.Test_Steps.i_have_cukes_in_my_kelly(Test_Steps.java:27)\r\n\tat ✽.Given I have 32 cukes in my kelly(sample.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "I have 32 cukes in my kelly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "32",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_have_cukes_in_my_kelly(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@KKB_TST"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 33662,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "a few cukes2",
+        "description": "",
+        "id": "belly;a-few-cukes2;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 142040,
+              "error_message": "java.lang.NullPointerException\r\n\tat setDefinition.GithubSteps2.killBrowser(GithubSteps2.java:71)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397383,
+              "error_message": "java.lang.AssertionError: expected:\u003c21\u003e but was:\u003c45\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat setDefinition.Test_Steps.i_have_cukes_in_my_kelly(Test_Steps.java:27)\r\n\tat ✽.Given I have 45 cukes in my kelly(sample.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "I have 45 cukes in my kelly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_have_cukes_in_my_kelly(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@KKB_TST"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 35305,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "a few cukes2",
+        "description": "",
+        "id": "belly;a-few-cukes2;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 150661,
+              "error_message": "java.lang.NullPointerException\r\n\tat setDefinition.GithubSteps2.killBrowser(GithubSteps2.java:71)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 488928,
+              "error_message": "java.lang.AssertionError: expected:\u003c21\u003e but was:\u003c55\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat setDefinition.Test_Steps.i_have_cukes_in_my_kelly(Test_Steps.java:27)\r\n\tat ✽.Given I have 55 cukes in my kelly(sample.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "I have 55 cukes in my kelly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_have_cukes_in_my_kelly(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@KKB_TST"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 42694,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "a few cukes2",
+        "description": "",
+        "id": "belly;a-few-cukes2;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 144503,
+              "error_message": "java.lang.NullPointerException\r\n\tat setDefinition.GithubSteps2.killBrowser(GithubSteps2.java:73)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 114946,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have 21 cukes in my kelly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_have_cukes_in_my_kelly(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@KKB_TST"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44336,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "a few cukes2",
+        "description": "",
+        "id": "belly;a-few-cukes2;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 147787,
+              "error_message": "java.lang.NullPointerException\r\n\tat setDefinition.GithubSteps2.killBrowser(GithubSteps2.java:73)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 123977,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have 21 cukes in my kelly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_have_cukes_in_my_kelly(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@KKB_TST"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 45157,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "a few cukes",
+        "description": "",
+        "id": "belly;a-few-cukes;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 149019,
+              "error_message": "java.lang.NullPointerException\r\n\tat setDefinition.GithubSteps2.killBrowser(GithubSteps2.java:71)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 448287,
+              "error_message": "java.lang.AssertionError: expected:\u003c21\u003e but was:\u003c32\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat setDefinition.Test_Steps.i_have_cukes_in_my_kelly(Test_Steps.java:27)\r\n\tat ✽.Given I have 32 cukes in my kelly(sample.feature:30)\r\n",
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "I have 32 cukes in my kelly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "32",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_have_cukes_in_my_kelly(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@KKB"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 42694,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "a few cukes",
+        "description": "",
+        "id": "belly;a-few-cukes;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 142040,
+              "error_message": "java.lang.NullPointerException\r\n\tat setDefinition.GithubSteps2.killBrowser(GithubSteps2.java:71)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 445824,
+              "error_message": "java.lang.AssertionError: expected:\u003c21\u003e but was:\u003c45\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat setDefinition.Test_Steps.i_have_cukes_in_my_kelly(Test_Steps.java:27)\r\n\tat ✽.Given I have 45 cukes in my kelly(sample.feature:30)\r\n",
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "I have 45 cukes in my kelly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_have_cukes_in_my_kelly(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@KKB"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 45978,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GithubSteps2.before(Scenario)"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "a few cukes",
+        "description": "",
+        "id": "belly;a-few-cukes;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 144913,
+              "error_message": "java.lang.NullPointerException\r\n\tat setDefinition.GithubSteps2.killBrowser(GithubSteps2.java:73)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "GithubSteps2.killBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 125208,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I have 21 cukes in my kelly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21",
+                  "offset": 7
+                }
+              ],
+              "location": "Test_Steps.i_have_cukes_in_my_kelly(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@KKB"
+          }
+        ]
+      }
+    ],
+    "name": "Belly",
+    "description": "This is description",
+    "id": "belly",
+    "keyword": "Feature",
+    "uri": "sample.feature"
+  }
+]

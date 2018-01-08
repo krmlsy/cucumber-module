@@ -6,9 +6,9 @@ pipeline {
         echo 'Tests started'
       }
     }
-    stage('shell') {
+    stage('IsReported') {
       steps {
-        sh 'sh "echo JUnit"'
+        fileExists 'C:\\Users\\USER\\Desktop\\kerem\\project demos\\cucumber_java-master\\cucumber_java-master\\target\\cucumber-html-reports\\overview-features.html'
       }
     }
   }

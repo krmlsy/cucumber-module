@@ -18,7 +18,7 @@ pipeline {
     }
     stage('cucumber') {
       steps {
-        cucumber(fileIncludePattern: 'target/**/*.json', fileExcludePattern: '0', jsonReportDirectory: '0', sortingMethod: '0')
+        cucumber(fileIncludePattern: 'target/cucumber/cucumber.json', fileExcludePattern: '0', jsonReportDirectory: '0', sortingMethod: '0')
       }
     }
   }
